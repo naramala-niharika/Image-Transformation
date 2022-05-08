@@ -121,36 +121,36 @@ plt.show()
 
 ### Original image:
 
-![Output](?raw=true)
+![Output](https://github.com/naramala-niharika/Image-Transformation/blob/main/z1.PNG?raw=true)
 
 ### i)Image Translation:
 
-![Output](?raw=true)
+![Output](https://github.com/naramala-niharika/Image-Transformation/blob/main/z2.PNG?raw=true)
 
 ### ii) Image Scaling:
 
-![Output](?raw=true)
+![Output](https://github.com/naramala-niharika/Image-Transformation/blob/main/z3.PNG?raw=true)
 
 ### iii)Image shearing:
 
-![Output](?raw=true)
+![Output](https://github.com/naramala-niharika/Image-Transformation/blob/main/z4.PNG?raw=true)
 
 
 ### iv)Image Reflection:
 
-![Output](?raw=true)
+![Output](https://github.com/naramala-niharika/Image-Transformation/blob/main/z5.PNG?raw=true)
 
 
 
 ### v)Image Rotation:
 
-![Output](?raw=true)
+![Output](https://github.com/naramala-niharika/Image-Transformation/blob/main/z6.PNG?raw=true)
 
 
 
 ### vi)Image Cropping:
 
-![Output](?raw=true)
+![Output](https://github.com/naramala-niharika/Image-Transformation/blob/main/z7.PNG?raw=true)
 
 
 
