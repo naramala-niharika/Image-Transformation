@@ -77,19 +77,19 @@ plt.show()
 
 iv)Image Reflection:
 
-M_x = np.float32([[1,0.5,0],
+M_x = np.float32([[1,0,0],
+                 [0,-1,rows],
+                 [0,0,1]])
+M_y = np.float32([[-1,0,cols],
                  [0,1,0],
                  [0,0,1]])
-M_y = np.float32([[1,0,0],
-                 [0.5,1,0],
-                 [0,0,1]])
-sheared_xaxis = cv2.warpPerspective(input_image,M_x,(int(cols*1.5),int(rows*1.5)))
-sheared_yaxis = cv2.warpPerspective(input_image,M_y,(int(cols*1.5),int(rows*1.5)))
+reflected_xaxis = cv2.warpPerspective(input_image,M_x,(int(cols),int(rows)))
+reflected_yaxis = cv2.warpPerspective(input_image,M_y,(int(cols),int(rows)))
 plt.axis('off')
-plt.imshow(sheared_xaxis)
+plt.imshow(reflected_xaxis)
 plt.show()
 plt.axis('off')
-plt.imshow(sheared_yaxis)
+plt.imshow(reflected_yaxis)
 plt.show()
 
 
